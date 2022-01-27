@@ -1,0 +1,27 @@
+<clients>
+<client>
+  <sl_no> 23 </sl_no>
+<first_name> SJohn Carter </first name>
+<admission_date_price> 25 dec 2015 </admission_date>
+</sl_no>
+</client>
+
+
+<client>
+  <sl_no>29 </sl_no>
+<first_name> Bob Marshal </first name>
+<admission_date_price> 13 jan 1999 </admission_date>
+</client>
+
+
+<client>
+  <sl_no>35</sl_no>
+<first_name>Clark kent </first name>
+<admission_date_price> 17 jun 2005 </admission_date>
+</client>
+<clients>
+
+
+
+
+
