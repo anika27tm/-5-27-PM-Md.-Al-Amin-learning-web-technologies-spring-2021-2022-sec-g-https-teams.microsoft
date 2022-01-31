@@ -1,0 +1,48 @@
+<html>
+<head>
+<style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+</style>
+</head>
+<body>
+
+
+
+<table  style="width:100%">
+  <tr>
+   <th height="50px" colspan="3">First HTML Site</th>
+  </tr>
+  
+  <tr>
+    <td height="200px" wide="10px" rowspan="2"><b>link </br> </b>
+    <a href="https://www.google.com/">Page-1 </br> </a>
+    <a href="https://www.gmail.com/">Page-2  </a></td>
+    
+    
+    </tr>
+  
+  <tr>
+    <td><b>Page-1 </b> </br>
+    I am at your page
+    </td>
+    <td><b>External Links </b> </br>
+    <a href="https://www.gmail.com/" > Gmail </br></a>
+	<a href="https://www.yahoo.com/">Yahoo </br></a> 
+	<a href="https://www.microsoft.com/">Microsoft </br></a>
+    
+    </td>
+    
+    </tr>
+    
+    <tr>
+    <td colspan="3" align="center"> Copyright </td>
+    </tr>
+    
+</table>
+</body>
+</html>
+
+
