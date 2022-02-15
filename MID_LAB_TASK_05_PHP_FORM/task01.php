@@ -50,7 +50,7 @@ function test_input($data) {
   <input type="submit" name="submit" value="Submit">  
 </form>
 
-<a href="task2.php"><button>go</button></a>
+
 <?php
 echo "<h2>Your Input:</h2>";
 echo $fname;

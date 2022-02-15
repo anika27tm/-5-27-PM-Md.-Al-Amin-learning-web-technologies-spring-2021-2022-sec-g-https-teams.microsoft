@@ -1,29 +1,25 @@
 <html>
 <head>
+
 </head>
-<body>  
+<body>
 
-
-<h2 style="text-align:left;"> Email </h2></br>
+<h2 style="text-align:left;"> Gender</h2></br>
 
 
 
 
 <?php
- $emailErr = $pErr = "";
+ $gender = "";
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 
-  
 
-  if (empty($_POST["email"])) {
-    $emailErr = "Email is required";
+  if (empty($_POST["gender"])) {
+    $genderErr = "Gender is required";
   } else {
-    $email = test_input($_POST["email"]);
+    $gender = test_input($_POST["gender"]);
   }
-  
-
-  
 }
 
 function test_input($data) {
@@ -38,9 +34,11 @@ function test_input($data) {
   <form style="text-align:left;" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">  
 
 
-
-    <input type="text" name="email">
-  <span class="error">* <?php echo $emailErr;?></span>
+  Gender:
+  <input type="radio" name="gender" value="female">Female
+  <input type="radio" name="gender" value="male">Male
+  <input type="radio" name="gender" value="other">Other
+  <span class="error">* <?php echo $genderErr;?></span>
   <br><br>
 
 
@@ -50,8 +48,9 @@ function test_input($data) {
 
 <?php
 echo "<h2>Your Input:</h2>";
-
-echo $email;
-
+echo $gender;
 ?>
 
+
+</body>
+</html>
